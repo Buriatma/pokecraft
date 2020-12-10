@@ -172,6 +172,19 @@ h3 {
     color: rgb(255, 255, 255);
 }
 
+.hero1 {
+    height: 220vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/background.png") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
 .info {
     font-size: 1.3em;
 }
@@ -502,7 +515,10 @@ footer a {
     footer {
         justify-content: space-between;
     }
+
 }
 .container {
-        margin: 0;
+        margin-top: 20rem;
+
 }
+
