@@ -515,10 +515,65 @@ footer a {
     footer {
         justify-content: space-between;
     }
-
+    #vote .votelist {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding-top: 66px;
+	padding-bottom: 66px;
 }
+ 
+    }
+        
+
 .container {
         margin-top: 20rem;
 
+}
+#vote {
+	margin: 10px;
+	text-align: center;
+	padding-top: 66px;
+	padding-bottom: 66px;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/votebackground.jpg") no-repeat center center;
+	
+    margin: -10px;
+}
+
+#vote h1 {
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+    margin-top: 15px;
+    color: aliceblue;
+}
+
+#vote h2 {
+	margin-top: 5px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+#vote p {
+	margin-top: 3px;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+#vote .voteblock {
+	transform: none;
+    transition: all .2s ease-in;
+}
+
+.voteblock a {
+    font-weight: 700;
+}
+#vote .votelist {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding-top: 66px;
+	padding-bottom: 66px;
+}
+.res-img-sm {
+    height: 110px;
 }
 
