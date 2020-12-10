@@ -519,7 +519,7 @@ footer a {
 	max-width: 1280px;
 	margin: 0 auto;
 	padding-top: 66px;
-	padding-bottom: 66px;
+    padding-bottom: 66px;
 }
  
     }
@@ -532,11 +532,12 @@ footer a {
 #vote {
 	margin: 10px;
 	text-align: center;
-	padding-top: 66px;
-	padding-bottom: 66px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/votebackground.jpg") no-repeat center center;
 	
     margin: -10px;
+    
 }
 
 #vote h1 {
@@ -575,5 +576,14 @@ footer a {
 }
 .res-img-sm {
     height: 110px;
+}
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
