@@ -109,6 +109,7 @@ h3 {
     width: 160px;
     transition-duration: 0.5s;
     margin: 0 40px;
+    margin-top: 10px;
 }
 
 .logo:hover {
@@ -593,4 +594,12 @@ footer a {
 
 .helping {
     background-color: purple;
+}
+
+.rules {
+    text-decoration: none;
+}
+
+.linked {
+    text-decoration: none;
 }
