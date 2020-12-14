@@ -109,6 +109,7 @@ h3 {
     width: 160px;
     transition-duration: 0.5s;
     margin: 0 40px;
+    margin-top: 10px;
 }
 
 .logo:hover {
@@ -348,15 +349,15 @@ hr {
 }
 
 .owner {
-    background-color: rgba(244, 65, 65, .5);
+    background-color: rgba(255, 0, 0, 0.5);
 }
 
 .manager {
-    background-color: rgba(66, 134, 244, .5);
+    background-color: rgba(13, 0, 255, 0.5);
 }
 
 .admin {
-    background-color: rgba(59, 211, 42, .5);
+    background-color: rgba(26, 255, 0, 0.5);
 }
 
 
@@ -589,4 +590,16 @@ footer a {
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+}
+
+.helping {
+    background-color: purple;
+}
+
+.rules {
+    text-decoration: none;
+}
+
+.linked {
+    text-decoration: none;
 }
